@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# Almabetter-Frontend-Capstone-Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created  with [ Javascript, ReactJs , TailwindCSS]
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `Deployement`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://dhanush-flash-card-generator-website.netlify.app/](https://dhanush-flash-card-generator-website.netlify.app/) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Run Locally
 
-### `npm test`
+Clone the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  git clone https://github.com/RithikDhanush/Almabetter-Frntend-Capstone-Project.git
+```
 
-### `npm run build`
+Install dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start the server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  npm run start
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Reactjs( React Router ),
+- Redux & Redux Toolkit,
+- TailwindCSS,
+- React-icons,
+- React Formik & Yup,
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## About The Project (Flashcard )
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+"This project was mainly created using ReactJS, and it includes three main pages."
 
-## Learn More
+```bash
+1) create Flashcard page 
+2) My Flashcard page 
+3) Flashcad Details page  with  share page 
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1) Create Flashcard Page:-
+   
+   -This page allows the user to create a new flashcard. For this page, Formik is used to create input boxes, which are validated using Yup. Formik simplifies     the process of handling form inputs and form validation in React. Yup is a library that allows developers to create schemas to validate form inputs.
 
-### Code Splitting
+2) My Flashcard Page:-
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   -This page displays all the flashcards that the user has created. The My Flashcard UI component is designed separately, and the input data is mapped to it.     This page allows the user to view all the flashcards they have created.
 
-### Analyzing the Bundle Size
+3) FlashcardDetails Page:-
+ 
+   -This page displays the details of a particular flashcard, including the number of cards and their details. Additionally, a share popup slide is created         with   all social media links. This allows users to share their flashcards with others easily.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## How To Use
+1) Deployment Link:-
 
-### Making a Progressive Web App
+   -To open the Flashcard Generator, click on the deployment link. This will take you to the homepage of the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2) Create New Flashcard
 
-### Advanced Configuration
+   -To create a new flashcard, click on the "Create New" link on the homepage. Fill in all the input boxes without any errors and click on the "Create" button     to save your new flashcard.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3) My Flashcard Page
+ 
+   -To view all the flashcards that you have created, click on the "My Flashcard" link on the homepage. This will display a list of all the flashcards you have     created recently.
 
-### Deployment
+4) View Card Details
+ 
+   -To view the details of a particular flashcard, click on the "View Card" button on the flashcard. This will display the number of cards and their details,       along with a "Share" button that allows you to copy the link with all social media icons. Clicking on the "Share" button will allow you to share the           flashcard with others easily.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Features
 
-### `npm run build` fails to minify
+- Input box for creating ( Group ,Description ,Term ,Definition )
+- Delete button (Button)
+- Edit Input box (Button)
+- Upload Image (Button)
+- View cards (Button)
+- See all (Button)
+- Share (Copy Clipboard button)
+- Social Media Button's ( Working )
+- Back Button
+- close button for closing share page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 🛠 Skills
+
+
+[Javascript, HTML, CSS, Reactjs...]
