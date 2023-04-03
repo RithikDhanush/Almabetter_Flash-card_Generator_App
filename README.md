@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `Deployement`
 
 Runs the app in the development mode.\
-Open [https://dhanush-flashcard-generator-website.netlify.app/](https://dhanush-flashcard-generator-website.netlify.app/) to view it in your browser.
+Open [https://dhanush-flashacards-generator-website.netlify.app](https://dhanush-flashacards-generator-website.netlify.app) to view it in your browser.
 
 ## Run Locally
 
