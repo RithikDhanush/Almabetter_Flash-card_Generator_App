@@ -16,7 +16,7 @@ Open [https://dhanush-flashacards-generator-website.netlify.app](https://dhanush
 Clone the project
 
 ```bash
-  git clone https://github.com/RithikDhanush/Almabetter-Frntend-Capstone-Project.git
+  git clone https://github.com/RithikDhanush/Almabetter_Flash-card_Generator_App
 ```
 
 Install dependencies
