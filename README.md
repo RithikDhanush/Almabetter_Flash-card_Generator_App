@@ -11,12 +11,18 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [https://dhanush-flashacards-generator-website.netlify.app](https://dhanush-flashacards-generator-website.netlify.app) to view it in your browser.
 
+## Watch Explanation video on youtube 
+
+
+- [video link](https://youtu.be/vx3ivmGAscs)
+
+
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/RithikDhanush/Almabetter_Flash-card_Generator_App
+  git clone https://github.com/RithikDhanush/Almabetter_Flash-card_Generator_App.git
 ```
 
 Install dependencies
@@ -97,4 +103,4 @@ Start the server
 ## 🛠 Skills
 
 
-[Javascript, HTML, CSS, Reactjs...]
+[Javascript, Reactjs, Redux, TailwindCSS...]
